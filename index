@@ -1,0 +1,134 @@
+<!-- João Vitor 2E - 13/08/2025 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayrton Senna</title>
+
+    <!-- Fontes e Estilos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="p-5">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ayrton_Senna_signature.svg/960px-Ayrton_Senna_signature.svg.png?20210503174158" alt="Assinatura Ayrton Senna" height="100" />
+
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold" aria-expanded="false">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar contraste"><i class="bi bi-shadows"></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="container my-5">
+
+        <!-- Seção Início -->
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="esquerda-conteudo text-center text-md-start">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ayrton_Senna_8.jpg/960px-Ayrton_Senna_8.jpg?20140430235544" alt="Ayrton Senna" class="mb-3" width="450" height="350" loading="lazy">
+                    <a href="#tropicalia" class="btn btn-primary btn-lg fw-semibold">Quero conhecer!</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Quem foi Ayrton Senna -->
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre Ayrton Senna">
+            <div class="container d-flex flex-column flex-md-row align-items-center">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Senna_1992_Monaco.jpg/960px-Senna_1992_Monaco.jpg?20131010034906" alt="Senna em Mônaco, 1992" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-md-7 mt-4 mt-md-0">
+                    <h2>Quem foi Ayrton Senna</h2>
+                    <p class="p-2">
+                        Ayrton Senna foi um piloto de Fórmula 1 entre os anos 1980 e 1990,
+                        considerado o maior ídolo brasileiro do automobilismo. Nasceu em São Paulo, em 21 de março de 1960, 
+                        e faleceu tragicamente em 1º de maio de 1994 após um acidente no Grande Prêmio de San Marino, em Ímola.
+                        Seu velório foi um dos maiores do país, com cerca de 240 mil pessoas acompanhando. 
+                        <strong>Fonte: Brasil Escola</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria de Imagens -->
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Ayrton_Senna_Beginning_-_Formula_Ford_1981%2C_Van_Diemen.jpg?20150308140615" alt="Senna no começo da carreira" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ayrton_Senna_5.jpg/960px-Ayrton_Senna_5.jpg?20171114210455" alt="Ayrton Senna em ação" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ayrton_Senna_1984_cropped.jpg/800px-Ayrton_Senna_1984_cropped.jpg?20131010032125" alt="Ayrton Senna em 1984" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Ayrton_Senna_Karting.jpg?20140430235032" alt="Senna no kart" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulário de Contato -->
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp" aria-label="WhatsApp"></i>
+        <i class="bi bi-instagram" aria-label="Instagram"></i>
+        <i class="bi bi-tiktok" aria-label="TikTok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs
